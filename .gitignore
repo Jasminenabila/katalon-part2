@@ -1,0 +1,10 @@
+Libs/*
+Reports/.DS_Store
+Reports/*
+bin/*
+*.DS_Store
+.classpath
+.project
+.properties
+.settings/*
+/bin/
