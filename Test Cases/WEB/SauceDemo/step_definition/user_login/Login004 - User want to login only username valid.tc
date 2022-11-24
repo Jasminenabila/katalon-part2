@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Login004 - User want to login only username valid</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>78c64781-9730-4793-b96e-e2764e8ba273</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f924d0ed-c0eb-4c93-9a53-d53edce3db7d</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'standard_user'</defaultValue>
+      <description></description>
+      <id>f924d0ed-c0eb-4c93-9a53-d53edce3db7d</id>
+      <masked>false</masked>
+      <name>username_new</name>
+   </variable>
+</TestCaseEntity>

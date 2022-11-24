@@ -15,7 +15,7 @@
       <guid>32692196-247c-42a1-a7da-6c556ecfdab6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/WEB/ORANGEHRM/TC002 - LoginOrangeHRM</testCaseId>
+      <testCaseId>Test Cases/WEB/ORANGEHRM/TC002 - LoginOrangeHRM - DataBinding</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>0003bf19-0cbf-437a-b66f-a5023cb75850</id>

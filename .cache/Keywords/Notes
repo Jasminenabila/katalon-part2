@@ -1,0 +1,21 @@
+{
+  "keywordFileContentHash": "FD72BF63C355B6D8F7C10AE349210B0A",
+  "keywordClasses": [
+    {
+      "name": "Notes",
+      "keywordMethods": [
+        {
+          "name": "randomString",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "randomNumber",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC003 - AddEmployee</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c797550d-90e5-41ee-ad16-a67282b2b8f1</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b855b83a-d4ee-4cb9-adf0-31efe9d9e7d7</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>78c5282b-e7d7-4486-85d0-f3c0a8cccddc</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>aa6711bd-7eb5-4014-8dec-9d5c5e2e610b</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Admin'</defaultValue>
+      <description></description>
+      <id>b855b83a-d4ee-4cb9-adf0-31efe9d9e7d7</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'admin123'</defaultValue>
+      <description></description>
+      <id>78c5282b-e7d7-4486-85d0-f3c0a8cccddc</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>'test1.jpeg'</defaultValue>
+      <description></description>
+      <id>aa6711bd-7eb5-4014-8dec-9d5c5e2e610b</id>
+      <masked>false</masked>
+      <name>image</name>
+   </variable>
+</TestCaseEntity>

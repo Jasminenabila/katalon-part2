@@ -21,11 +21,12 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.url_orangehrm)
 
-WebUI.setText(findTestObject('OR001 - usernameField'), 'Admin')
+WebUI.setText(findTestObject('archive/OR001 - usernameField'), username)
 
-WebUI.setText(findTestObject('OR002 - passwordField'), 'admin123')
+WebUI.setText(findTestObject('archive/OR002 - passwordField'), password)
 
-WebUI.click(findTestObject('OR003 - loginButton'))
+WebUI.click(findTestObject('archive/OR003 - loginButton'))
 
-WebUI.verifyElementPresent(findTestObject('OR004 - logoOrange'), 30)
+WebUI.verifyElementPresent(findTestObject('archive/OR004 - logoOrange'), 30)
 
+WebUI.takeScreenshot()

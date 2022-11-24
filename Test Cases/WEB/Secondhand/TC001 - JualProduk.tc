@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC001 - JualProduk</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>818ece1b-b4fb-4ceb-95d7-5e455c991145</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b6ee2e08-e1f2-4060-9994-470c71490dc1</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a5002f38-0e3c-4874-83c7-3ba9b4ddc825</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>80ef4a0e-804f-4c91-93ee-d9f56defbae0</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'jasminenabila19@gmail.com'</defaultValue>
+      <description></description>
+      <id>b6ee2e08-e1f2-4060-9994-470c71490dc1</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>'password123'</defaultValue>
+      <description></description>
+      <id>a5002f38-0e3c-4874-83c7-3ba9b4ddc825</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>'Goodie bag new-'</defaultValue>
+      <description></description>
+      <id>80ef4a0e-804f-4c91-93ee-d9f56defbae0</id>
+      <masked>false</masked>
+      <name>productName</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>To click Login button.</description>
+   <name>Click_Login</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>acbac267-d051-4e93-bc42-6941fd4a7d98</testCaseGuid>
+</TestCaseEntity>

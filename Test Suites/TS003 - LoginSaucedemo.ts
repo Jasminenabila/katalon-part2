@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>TS003 - LoginSaucedemo</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>3</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>610aaaef-be1b-419b-8b44-deb920be91fa</testSuiteGuid>
+   <testCaseLink>
+      <guid>e9aa7265-4f65-424e-94ca-6a25c18f55fe</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/WEB/SauceDemo/step_definition/user_login/Login001 - User want to login without input username and password</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>ddc5c278-b007-4f3e-8945-12b32798ef74</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>7b4700ce-4b04-40c9-b08e-08e07fe7b640</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>ef4c92dd-2810-4307-8759-9a60cf530737</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/WEB/SauceDemo/step_definition/user_login/Login002 - User want to login using correct credential</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>75b4159c-fd7b-4ec1-a6fe-11090038fbb2</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>5a91fd0e-34c7-4f9d-81a3-8694c7911341</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>f8f4a757-f2d9-4b23-8788-75a82173eba5</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/WEB/SauceDemo/step_definition/user_login/Login003 - User want to login invalid credentials</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>d59ec998-8706-4d82-a4ce-1f308e96ffb8</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>eed99941-85b8-4dea-b3c9-bd2adf648744</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c370b94f-2451-4392-8347-47b8f98273be</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/WEB/SauceDemo/step_definition/user_login/Login004 - User want to login only username valid</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>f924d0ed-c0eb-4c93-9a53-d53edce3db7d</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

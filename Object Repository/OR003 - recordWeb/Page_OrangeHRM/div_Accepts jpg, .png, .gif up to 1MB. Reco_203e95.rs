@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Accepts jpg, .png, .gif up to 1MB. Reco_203e95</name>
+   <tag></tag>
+   <elementGuidId>4d8a98b6-4d5a-4c0f-b490-4e278308bd19</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']/div/div[2]/div[2]/div/div/form/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.orangehrm-employee-container</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>8347bebd-7462-4f54-9118-43e733869caf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>orangehrm-employee-container</value>
+      <webElementGuid>5b4f7b08-6ffe-4c11-abce-3b51586c0b40</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Accepts jpg, .png, .gif up to 1MB. Recommended dimensions: 200px X 200pxEmployee Full NameEmployee IdCreate Login DetailsUsernameStatusEnabledDisabledStrongest PasswordFor a strong password, please use a hard to guess combination of text with upper and lower case characters, symbols and numbersConfirm PasswordPasswords do not match</value>
+      <webElementGuid>c8e0d978-4ab1-4c71-b6f7-b43ae7d93502</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/div[@class=&quot;oxd-layout&quot;]/div[@class=&quot;oxd-layout-container&quot;]/div[@class=&quot;oxd-layout-context&quot;]/div[@class=&quot;orangehrm-background-container&quot;]/div[@class=&quot;orangehrm-card-container&quot;]/form[@class=&quot;oxd-form&quot;]/div[@class=&quot;orangehrm-employee-container&quot;]</value>
+      <webElementGuid>7a3f9b0d-c98e-4c28-84f4-23be89d723c0</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/div/div[2]/div[2]/div/div/form/div</value>
+      <webElementGuid>17c7dc30-0325-4330-a27d-749698fb5f53</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Configuration'])[1]/following::div[6]</value>
+      <webElementGuid>a167d5e5-9403-4a59-a258-a4d06af6a462</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//form/div</value>
+      <webElementGuid>9b8f34e7-9533-47b4-8f59-1bbaedeca665</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Accepts jpg, .png, .gif up to 1MB. Recommended dimensions: 200px X 200pxEmployee Full NameEmployee IdCreate Login DetailsUsernameStatusEnabledDisabledStrongest PasswordFor a strong password, please use a hard to guess combination of text with upper and lower case characters, symbols and numbersConfirm PasswordPasswords do not match' or . = 'Accepts jpg, .png, .gif up to 1MB. Recommended dimensions: 200px X 200pxEmployee Full NameEmployee IdCreate Login DetailsUsernameStatusEnabledDisabledStrongest PasswordFor a strong password, please use a hard to guess combination of text with upper and lower case characters, symbols and numbersConfirm PasswordPasswords do not match')]</value>
+      <webElementGuid>ca741d2b-0944-4377-957e-9bc438c374af</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

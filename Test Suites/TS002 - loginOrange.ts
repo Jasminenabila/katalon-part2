@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>TS002 - loginOrange</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>3</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>cfd55e24-697f-4e05-9635-b679068cd7a3</testSuiteGuid>
+   <testCaseLink>
+      <guid>df10a80a-1fb9-421e-a79d-2b3bbd33f8c6</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/WEB/ORANGEHRM/TC001 - loginOrangeHRM</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>ce5e14b6-9d35-4557-9ec3-90d94fdd330d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>0687ec5e-bcfb-4b2a-b78a-de9f77008c2d</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>49d62d5a-7701-4773-8bbc-4b0d45b773c5</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/WEB/ORANGEHRM/TC003 - AddEmployee</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>b855b83a-d4ee-4cb9-adf0-31efe9d9e7d7</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>78c5282b-e7d7-4486-85d0-f3c0a8cccddc</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>aa6711bd-7eb5-4014-8dec-9d5c5e2e610b</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
