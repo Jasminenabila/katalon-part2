@@ -17,11 +17,19 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-//CucumberKW.runFeatureFile('Include/features/Logins.feature')
+Mobile.startApplication('/Users/jasmine/Downloads/second-hand.apk', true)
 
+Mobile.tap(findTestObject('Object Repository/secondhand_mobile/android.widget.FrameLayout_navbarIcon'), 10)
 
-String randomUser = CustomKeywords.'Notes.randomString'()
-println 'contoh'+randomUser
-//WebUI.setText(findTestObject, null)
+//Mobile.tap(findTestObject('Object Repository/secondhand_mobile/android.widget.Button - MasukDuluYuk'), 0)
+//
+//Mobile.setText(findTestObject('Object Repository/secondhand_mobile/android.widget.EditText - Masukkan email'), "jasminenabila19@gmail.com", 0)
+//
+//Mobile.setText(findTestObject('Object Repository/secondhand_mobile/android.widget.EditText - Masukkan password'), 'password123', 0)
+//
+//Mobile.tap(findTestObject('Object Repository/secondhand_mobile/android.widget.Button - Masuk'), 0)
+//
+//Mobile.tap(findTestObject('Object Repository/secondhand_mobile/android.widget.Spinner - Pilih Kategori'), 0)
 
-WebUI.selectOptionByValue(findTestObject, value, false)
+Mobile.delay(3)
+

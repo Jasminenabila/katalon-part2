@@ -16,12 +16,37 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import groovy.json.JsonSlurper as JsonSlurper
 
-//CucumberKW.runFeatureFile('Include/features/Logins.feature')
+request = findTestObject('Object Repository/API/Postman/Get Data Users ID', [('id') : id])
 
+'---get request url and request body---'
+WebUI.comment(((request.getRestUrl()) as String))
 
-String randomUser = CustomKeywords.'Notes.randomString'()
-println 'contoh'+randomUser
-//WebUI.setText(findTestObject, null)
+sendRequest = WS.sendRequest(request)
+def response_result = new JsonSlurper().parseText(sendRequest.getResponseBodyContent())
+WebUI.comment("Response :" +sendRequest.getResponseBodyContent())
 
-WebUI.selectOptionByValue(findTestObject, value, false)
+statusCode = sendRequest.getStatusCode().toString()
+WS.comment(statusCode)
+
+//if(statusCode == '200') {
+//	
+//	String usrName = response_result.get('userName')
+//	WS.comment(usrName)
+//	WS.verifyMatch(usrName, "User 1", false)
+//	
+//	String id = response_result.get('id')
+//	WS.comment(id)
+//	WS.verifyMatch(id, "1", false)
+//	
+//	String password = response_result.get('password')
+//	WS.comment(password)
+//	WS.verifyMatch(password, "Password1", false)
+//}
+//
+//else {
+//	
+//	WS.comment("ERROR")
+//}
+

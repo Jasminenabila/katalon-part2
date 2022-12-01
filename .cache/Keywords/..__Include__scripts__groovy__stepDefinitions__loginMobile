@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "451A40E9738A817F4680919DA0152BB7",
+  "keywordClasses": [
+    {
+      "name": "stepDefinitions.loginMobile",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

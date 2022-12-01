@@ -16,12 +16,21 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import groovy.json.JsonSlurper as JsonSlurper
 
-//CucumberKW.runFeatureFile('Include/features/Logins.feature')
+request = findTestObject('Object Repository/API/Postman/Submit User')
+
+'---get request url and request body---'
+WebUI.comment(((request.getRestUrl()) as String))
+WebUI.comment(((request.getHttpBody()) as String))
+
+sendRequest = WS.sendRequest(request)
+def response_result = new JsonSlurper().parseText(sendRequest.getResponseBodyContent())
+WebUI.comment("Response :" +sendRequest.getResponseBodyContent())
+
+statusCode = sendRequest.getStatusCode().toString()
+WS.comment(statusCode)
 
 
-String randomUser = CustomKeywords.'Notes.randomString'()
-println 'contoh'+randomUser
-//WebUI.setText(findTestObject, null)
+//WS.sendRequest(findTestObject('API/Postman/Submit User'))
 
-WebUI.selectOptionByValue(findTestObject, value, false)

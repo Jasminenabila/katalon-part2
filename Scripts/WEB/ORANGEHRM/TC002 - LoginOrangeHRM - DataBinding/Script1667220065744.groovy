@@ -29,7 +29,7 @@ WebUI.setText(findTestObject('archive/OR002 - passwordField'), password)
 
 WebUI.click(findTestObject('archive/OR003 - loginButton'))
 
-if(flag == 'null' && tag == 'user') {
+if(flag == 'null' && tag == 'user') {  
 	
 	WebUI.verifyElementText(findTestObject('Object Repository/archive/OR005 - RequiredUsername'), 'Required')
 	WebUI.delay(2)

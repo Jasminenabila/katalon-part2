@@ -21,7 +21,7 @@ import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 String getRandomString = CustomKeywords.'Notes.randomString'()
 String getRandomPrice = CustomKeywords.'Notes.randomNumber'()
 
-WebUI.callTestCase(findTestCase('WEB/Secondhand/TC002 - Login Penjual'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('WEB/Secondhand/TC002 - Login Penjual1234'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Object Repository/archive/OR008 - btnJual'))
 

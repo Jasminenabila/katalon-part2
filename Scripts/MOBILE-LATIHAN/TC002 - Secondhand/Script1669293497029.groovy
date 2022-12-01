@@ -17,11 +17,3 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-//CucumberKW.runFeatureFile('Include/features/Logins.feature')
-
-
-String randomUser = CustomKeywords.'Notes.randomString'()
-println 'contoh'+randomUser
-//WebUI.setText(findTestObject, null)
-
-WebUI.selectOptionByValue(findTestObject, value, false)

@@ -18,40 +18,40 @@
       <testCaseId>Test Cases/WEB/ORANGEHRM/TC002 - LoginOrangeHRM - DataBinding</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>0003bf19-0cbf-437a-b66f-a5023cb75850</id>
+         <id>83f682fe-7a01-4bf5-b6f4-d5d2857e3da4</id>
          <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
+            <iterationType>RANGE</iterationType>
+            <value>1-2</value>
          </iterationEntity>
          <testDataId>Data Files/DF001 - LoginOrange</testDataId>
       </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
-         <testDataLinkId>0003bf19-0cbf-437a-b66f-a5023cb75850</testDataLinkId>
+         <testDataLinkId>83f682fe-7a01-4bf5-b6f4-d5d2857e3da4</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>description</value>
          <variableId>65a78432-e2bd-4a84-9cf2-00935d651cc8</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>0003bf19-0cbf-437a-b66f-a5023cb75850</testDataLinkId>
+         <testDataLinkId>83f682fe-7a01-4bf5-b6f4-d5d2857e3da4</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>username</value>
          <variableId>480b868f-eeb0-4299-a2d1-7301475520bf</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>0003bf19-0cbf-437a-b66f-a5023cb75850</testDataLinkId>
+         <testDataLinkId>83f682fe-7a01-4bf5-b6f4-d5d2857e3da4</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>password</value>
          <variableId>43da0ce2-faab-4552-b5e5-46b381cc825d</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>0003bf19-0cbf-437a-b66f-a5023cb75850</testDataLinkId>
+         <testDataLinkId>83f682fe-7a01-4bf5-b6f4-d5d2857e3da4</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>flag</value>
          <variableId>3d86408f-2373-4fc2-97ab-6cd178a215b0</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>0003bf19-0cbf-437a-b66f-a5023cb75850</testDataLinkId>
+         <testDataLinkId>83f682fe-7a01-4bf5-b6f4-d5d2857e3da4</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>tag</value>
          <variableId>8592c3a4-3a5d-4fc6-a9c1-902bf4fab12d</variableId>

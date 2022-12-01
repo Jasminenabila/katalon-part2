@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC001 - GetDataUsersByID</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b0b2813e-fcae-4761-ab9b-4c5084db1efb</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d76de1f9-54c7-410f-ac2a-947252f0f003</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'1'</defaultValue>
+      <description></description>
+      <id>d76de1f9-54c7-410f-ac2a-947252f0f003</id>
+      <masked>false</masked>
+      <name>id</name>
+   </variable>
+</TestCaseEntity>
